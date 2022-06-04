@@ -1,0 +1,168 @@
+/* body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url("https://wallpapercave.com/wp/wp3703397.jpg");
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: top;
+} */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+}
+
+#image-container {
+    /* background: url("https://wallpapercave.com/wp/wp3703397.jpg") no-repeat center center/cover; */
+    background: url("https://c4.wallpaperflare.com/wallpaper/591/844/1024/spider-man-spider-video-games-superhero-wallpaper-preview.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    box-sizing: border-box;
+}
+
+/* App Title */
+#app-title {
+    font-size: 30px;
+    background: -webkit-linear-gradient(60deg, #00f6f6, #FFB03A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: monospace;
+}
+
+/* styling navbar */
+.nav {
+    background-color: black;
+    height: 70px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* styling search box */
+.search-container {
+    position: relative;
+}
+
+.search-container input {
+    height: 40px;
+    width: 400px;
+    border-radius: 7px;
+    border: none;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+::placeholder {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#search-results {
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #e1e1e1;
+    top: 42px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 100;
+  }
+  .search-result .hero-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .search-result .hero-info button {
+    margin: 20px 10px;
+    background: #21ba45;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    padding: 9px 0;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  .search-result {
+    display: flex;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+  }
+  .search-result img {
+    height: 150px;
+    width: 100px;
+  }
+  .search-result > div span {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+  }
+
+  .search-container input:focus,
+.search-container button:focus,
+.search-result .hero-info button:focus {
+  outline: none;
+} 
+.search-container button:hover,
+.search-result .hero-info button:hover {
+  cursor: pointer;
+}
+
+.search-container input:focus{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+/*styling for fvrt button */
+#fvrt-btn {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));;
+    height: 43px;
+    color:black;
+    font-weight: bold;
+    border: none;
+    font-size: 15px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative;
+    top: -1px;
+  }
+
+  /* About App */
+  /* #about-app {
+    position: relative;
+    width: 50vw;
+    height: 70vh;
+    left: -2%;
+    top: 5%;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+  }
+  #about-app span{
+    background: -webkit-linear-gradient(60deg, #6bf600, #3a99ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      text-align: justify;
+  }
+   */
+  
