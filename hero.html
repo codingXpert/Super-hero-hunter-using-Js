@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Hero</title>
+
+    <!-- linking relevent css file -->
+    <link rel="stylesheet" type="text/css" href="./hero.css" />
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <div class="nav">
+        <span id="app-title">Superhero Hunter</span>
+
+        <div>
+            <!-- buttton:Redirecting back to home page - index.html -->
+            <button class="nav-btn" onclick="windows.location.href='index.html'"> home </button>
+
+            <!-- buttton:Redirecting back to  page favourites- favourites.html -->
+            <button class="nav-btn" onclick="window.location.href='favourites.html'"> Favourites </button>
+        </div>
+
+    </div>
+
+    <main>
+        <!-- All details about super heros -->
+        <div id="left">
+            <img id="avatar">
+        </div>
+
+        <div id="right">
+            <div id="hero-title"></div>
+            <div id="about">
+                <div id="powerstats">
+                    <span class="cate">Powerstats</span>
+                    <ul id="about-power">
+                        <li id="intelligence"></li>
+                        <li id="strength"></li>
+                        <li id="speed"></li>
+                        <li id="durability"></li>
+                        <li id="power"></li>
+                        <li id="combat"></li>
+                    </ul>
+                </div>
+
+                <div id="biography">
+                    <span class="cate">Biography</span>
+                    <ul id="about-bio">
+                        <li id="full-name"></li>
+                        <li id="alter-egos"></li>
+                        <li id="aliases"></li>
+                        <li id="place-of-birth"></li>
+                        <li id="first-appearance"></li>
+                        <li id="publisher"></li>
+                        <li id="alignment"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+<!-- linking relevent javaScript file -->
+<script type="text/javascript" src="./hero.js"></script>
+
+</html>
