@@ -98,6 +98,7 @@ async function fetchAsync(url) {
   async function displayHeroPage(e) {
     let heroPagePath = `${window.location.pathname} + /../hero.html#id=${e.target.id}`;
     window.open(heroPagePath);
+    console.log(heroPagePath);
   }
   
   // return the list of favourite hero id's which is stored in local storage
@@ -138,4 +139,5 @@ async function fetchAsync(url) {
     e.target.removeEventListener("click", removeFromFavourites);
     e.target.addEventListener("click", addToFavourites);
   }
+
   
