@@ -14,6 +14,7 @@ window.onload = function () {
 async function manipulateDOM(id) {
   let url = `https://superheroapi.com/api.php/2928355607286861/${id}`;
   let data = await fetchAsync(url);
+  console.log(data);
   if (data && data.response == "success") {
     heroTitle.innerHTML = data["name"];
     avatar.src = data["image"]["url"];
