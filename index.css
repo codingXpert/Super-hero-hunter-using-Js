@@ -37,6 +37,7 @@ body {
 /* App Title */
 #app-title {
     font-size: 30px;
+    font-weight: bold;
     background: -webkit-linear-gradient(60deg, #00f6f6, #FFB03A);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -137,6 +138,7 @@ body {
 #fvrt-btn {
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));;
     height: 43px;
+    cursor: pointer;
     color:black;
     font-weight: bold;
     border: none;

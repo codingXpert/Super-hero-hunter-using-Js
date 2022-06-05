@@ -16,6 +16,7 @@ body{
 #image-container{
     /* background: url("https://www.teahub.io/photos/full/87-873355_marvel-superheroes-wallpaper-4k.jpg") no-repeat center center/cover; */
     background: url("./img/hero.jpg") no-repeat center center/cover;
+    opacity:0.7;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -58,16 +59,19 @@ body{
     position: relative;
     display: flex;
     top: 10%;
+    bottom: -70px;
+    align-content: center;
     left: 25%;
     height: 70vh;
     width: 100vh;
+    /* border: 5px solid ; */
+    box-shadow: 1px 3px 6px 9px #00000080;
   }
 
   /* avatar-container */
   #left {
     height: 100%;
     width: 40%;
-    border:1px solid red;
   }
   
   /* details-container */
@@ -118,6 +122,7 @@ body{
     height: 100%;
     margin-top: 10px;
     text-align: center;
+   
   }
   
   #about-bio,
@@ -125,11 +130,11 @@ body{
     margin-top: 20%;
     text-align: left;
   }
-  
+ 
   li {
     margin-bottom: 10px;
-    font-size: 0.9rem;
-    font-weight: 400;
+    font-size:15px;
+    font-weight:700;
     font-family: sans-serif;
   }
   
