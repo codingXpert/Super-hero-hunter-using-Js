@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+}
+/* styling navbar */
+.nav{
+    background-color: black;
+    height: 70px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* image-container */
+#image-container{
+    /* background: url("https://www.teahub.io/photos/full/87-873355_marvel-superheroes-wallpaper-4k.jpg") no-repeat center center/cover; */
+    background: url("./img/hero.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    box-sizing: border-box;
+}
+
+/* App Title */
+#app-title {
+    font-size: 30px;
+    background: -webkit-linear-gradient(60deg, #00f6f6, #FFB03A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: monospace;
+}
+
+/* styling buttons */
+.nav-btn {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));;
+    height: 43px;
+    width: 100px;
+    color:black;
+    font-weight: bold;
+    border: none;
+    font-size: 15px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative;
+    top: -1px;
+    cursor: pointer;
+  }
+  button{
+      margin: 10px;
+  }
+
+  /* main container */
+  main {
+    position: relative;
+    display: flex;
+    top: 10%;
+    left: 25%;
+    height: 70vh;
+    width: 100vh;
+  }
+
+  /* avatar-container */
+  #left {
+    height: 100%;
+    width: 40%;
+    border:1px solid red;
+  }
+  
+  /* details-container */
+  #right {
+    height: 99.5%;
+    width: 60%;
+    border: 1px solid black;
+  }
+
+  /* Avatar-Image */
+  img{
+    height: 100%;
+    width: 100%;  
+  }
+
+  /* hero-title */
+  #hero-title {
+    height: 10%;
+    width: 100%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f2711c;
+  }
+
+  /* About */
+  #about {
+    display: flex;
+    height: 90%;
+    width: 100%;
+  }
+
+  .cate {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: black;
+    color: white;
+    padding: 5px;
+  }
+  
+  /* powerstats and biography */
+  #powerstats,
+  #biography {
+    width: 50%;
+    height: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  #about-bio,
+  #about-power {
+    margin-top: 20%;
+    text-align: left;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: sans-serif;
+  }
+  
+  

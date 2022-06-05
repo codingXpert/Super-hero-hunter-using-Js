@@ -23,7 +23,8 @@ body {
 
 #image-container {
     /* background: url("https://wallpapercave.com/wp/wp3703397.jpg") no-repeat center center/cover; */
-    background: url("https://c4.wallpaperflare.com/wallpaper/591/844/1024/spider-man-spider-video-games-superhero-wallpaper-preview.jpg") no-repeat center center/cover;
+    /* background: url("https://c4.wallpaperflare.com/wallpaper/591/844/1024/spider-man-spider-video-games-superhero-wallpaper-preview.jpg") no-repeat center center/cover; */
+    background: url("./img/home.jpg") no-repeat center center/cover;
     position: absolute;
     top: 0px;
     left: 0px;
