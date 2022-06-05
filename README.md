@@ -16,6 +16,6 @@
 * Clicking on superhero avatar will lend you to the page whrere all the details of a particular hero is mentioned.
 * Favourites button is available on the navbar of homepage, through which user will lend to the page of all the favourite superheros list.
 * Designed a clean UI by which can explore more features very easily.
-## Deployed Link 
-##  https://codingxpert.github.io/Super-hero-hunter-using-Js/
+# Deployed Link 
+#  https://codingxpert.github.io/Super-hero-hunter-using-Js/
 
