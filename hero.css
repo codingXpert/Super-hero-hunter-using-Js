@@ -29,6 +29,7 @@ body{
 /* App Title */
 #app-title {
     font-size: 30px;
+    font-family: 'Piazzolla', serif;
     background: -webkit-linear-gradient(60deg, #00f6f6, #FFB03A);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -95,7 +96,7 @@ body{
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-family: 'Piazzolla', serif;
     background-color: #f2711c;
   }
 
@@ -109,7 +110,7 @@ body{
   .cate {
     font-size: 1.5rem;
     font-weight: 500;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-family: 'Piazzolla', serif;
     background-color: black;
     color: white;
     padding: 5px;
@@ -135,7 +136,7 @@ body{
     margin-bottom: 10px;
     font-size:15px;
     font-weight:700;
-    font-family: sans-serif;
+    font-family: 'Piazzolla', serif;
   }
   
   

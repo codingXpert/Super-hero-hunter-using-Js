@@ -11,6 +11,9 @@
   background-repeat: no-repeat;
   background-position: top;
 } */
+
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:opsz,wght@8..30,100;8..30,200;8..30,300;8..30,400&display=swap');
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -22,11 +25,14 @@ body {
 }
 
 #image-container {
-    /* background: url("https://wallpapercave.com/wp/wp3703397.jpg") no-repeat center center/cover; */
+    /* background-image: url("https://wallpapercave.com/wp/wp3703397.jpg"); */
     /* background: url("https://c4.wallpaperflare.com/wallpaper/591/844/1024/spider-man-spider-video-games-superhero-wallpaper-preview.jpg") no-repeat center center/cover; */
-    background: url("./img/home.jpg") no-repeat center center/cover;
-    position: absolute;
-    top: 0px;
+    background: url("./img/home1.jpg") no-repeat center center/cover;
+    position:absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 70px;
+    top:0px;
     left: 0px;
     height: 100%;
     width: 100%;
@@ -41,18 +47,19 @@ body {
     background: -webkit-linear-gradient(60deg, #00f6f6, #FFB03A);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: monospace;
+    font-family: 'Piazzolla', serif;
 }
 
 /* styling navbar */
 .nav {
-    background-color: black;
+    background-color: rgb(12, 12, 12);
     height: 70px;
     padding: 10px;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 3px 1px 1px 2px rgba(0, 0, 0, 0.537);
 }
 
 /* styling search box */
@@ -67,11 +74,12 @@ body {
     border: none;
     padding: 0 10px;
     box-sizing: border-box;
-    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    background-image: linear-gradient(to right, #d2a6f8, #3e947c);
 }
 
 ::placeholder {
     color: black;
+    font-family: 'Piazzolla', serif;
     font-size: 15px;
     font-weight: bold;
 }
@@ -140,6 +148,7 @@ body {
     height: 43px;
     cursor: pointer;
     color:black;
+    font-family: 'Piazzolla', serif;
     font-weight: bold;
     border: none;
     font-size: 15px;
